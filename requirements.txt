@@ -1,0 +1,19 @@
+python-telegram-bot==20.5
+import asyncio
+import json
+import random
+import re
+import string
+import time
+import aiofiles
+import aiohttp
+import uuid
+import httpx
+from datetime import datetime
+from urllib.parse import urlencode
+from telegram import Update
+from telegram.ext import Application, CommandHandler, ContextTypes
+import logging
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
